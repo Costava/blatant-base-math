@@ -2,6 +2,8 @@
  * Non-performant base conversion and arithmetic
  * All operations are done by incrementing or decrementing by 1 until the
  *  correct answer is reached
+ * https://github.com/Costava/blatant-base-math
+ * Version: 0.0.1
  * @constructor
  * @param {object} [o]
  * @param {string} [o.digitSet]

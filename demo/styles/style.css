@@ -23,6 +23,20 @@ body {
 	background-color: #669;
 }
 
+a {
+	color: inherit;
+	text-decoration: inherit;
+
+	transition-property: opacity;
+	transition-duration: 0.2s;
+	transition-timing-function: ease;
+}
+
+a:hover {
+	text-decoration: underline;
+	opacity: 0.8;
+}
+
 .app {
 	margin: 12px;
 	border: 0;

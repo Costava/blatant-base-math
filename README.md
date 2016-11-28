@@ -9,7 +9,7 @@
 
 ## Quick Start
 
-```
+```JavaScript
 var baseMath = new BaseMath();
 
 // Convert '1011' from base 2 to base 10
@@ -30,7 +30,7 @@ baseMath.multiply('80', 16, '5', 10, 2);// "1010000000"
 
 Defining a custom set of digits:
 
-```
+```JavaScript
 var baseMath = new BaseMath({digitSet: ')!@#$%^&*('});
 
 baseMath.add('!', 10, '@', 10);// "#"
